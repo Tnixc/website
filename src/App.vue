@@ -15,4 +15,10 @@ export default {
 
 <style>
 @import "css/colors.css";
+
+body{
+  background-color: var(--background);
+}
+
+
 </style>
