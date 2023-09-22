@@ -1,3 +1,10 @@
 body{
   background-color: black;
 }
+:root{
+  --text: #CAD3F5;
+  --text-seconday: #A8AFCE;
+  --accent: #7AA2F6;
+  --background: #1E2030;
+  --background-secondary: #25273A;
+}
