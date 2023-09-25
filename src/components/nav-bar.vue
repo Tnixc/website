@@ -18,7 +18,7 @@ export default {
   justify-content: center;
   background-color: transparent; /* No background */
   padding: 20px; /* Increased padding */
-}
+} 
 
 /* Style for the navigation links */
 .navbar a {
@@ -48,8 +48,7 @@ export default {
   right: 0; /* Move to the right */
 }
 
-.nav-link.router-link-active,
-.nav-link.router-link-active::after {
+.nav-link.router-link-active,.nav-link.router-link-active::after {
   opacity: 1;
 }
 </style>

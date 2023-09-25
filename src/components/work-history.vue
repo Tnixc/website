@@ -10,10 +10,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+p{
 
-</style>
-
-<style>
-
+  background: $surface;
+}
 </style>
