@@ -11,8 +11,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-p{
-
-  background: $surface;
+div{
+  max-width: $max-width;
+  outline: 2px solid red;
+  margin: 0 auto;
 }
 </style>
