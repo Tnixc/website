@@ -19,12 +19,12 @@ export default {
 }
 </script>
 
-<style>
-@import "css/colors.css";
+<style lang="scss">
+@import "style/colors.scss";
 
 body{
-  background-color: var(--background);
-  color: var(--text);
+  background-color: $background;
+  color: $text;
 }
 
 </style>

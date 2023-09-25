@@ -11,7 +11,7 @@ export default {
   name: "navBar",
 };
 </script>
-<style scoped>
+<style lang="scss" scoped>
 /* Style for the navbar container */
 .navbar {
   display: flex;
@@ -23,7 +23,7 @@ export default {
 /* Style for the navigation links */
 .navbar a {
   text-decoration: none;
-  color: var(--text); /* Text color */
+  color: $text; /* Text color */
   margin: 0 20px; /* Spacing between links */
   font-size: 18px; /* Font size */
   position: relative; /* Needed for the animation */
@@ -38,7 +38,7 @@ export default {
   left: 0;
   right: 100%; /* Initially hidden to the left */
   height: 2px; /* Underline thickness */
-  background-color: var(--text); /* Underline color */
+  background-color: $text; /* Underline color */
   transition: right 0.3s ease; /* Animation */
   opacity: 0.6;
 }
