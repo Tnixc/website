@@ -1,14 +1,13 @@
 <template>
-  <div id="navContainer">
+  <div>
+    <p>Hello, World!</p>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: "navBar",
-};
-
+  name: 'workHistory'
+}
 </script>
 
 <style scoped>
