@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Hello, World!</p>
+    <p>Hello, about me!</p>
   </div>
 </template>
 
@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style scoped>
+
+</style>
+<style>
 
 </style>

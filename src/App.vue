@@ -7,7 +7,9 @@
 </template>
 
 <script>
+
 import navBar from './components/nav-bar.vue'
+
 
 export default {
   name: 'App',
@@ -22,6 +24,7 @@ export default {
 
 body{
   background-color: var(--background);
+  color: var(--text);
 }
 
 </style>
