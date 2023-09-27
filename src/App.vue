@@ -3,28 +3,32 @@
   <div id="app">
     <navBar />
     <router-view></router-view>
+    <bottomFooter />
   </div>
 </template>
 
 <script>
 
 import navBar from './components/nav-bar.vue'
-
+import bottomFooter from './components/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    navBar
+    navBar,
+    bottomFooter
   }
 }
 </script>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
+
+
 </style>
 
 <style lang="scss" >
@@ -32,5 +36,6 @@ export default {
 body{
   background-color: $background;
   color: $text;
+
 }
 </style>
