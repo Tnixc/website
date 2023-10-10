@@ -6,10 +6,8 @@
 
 <script>
 export default {
-  name: 'contactMe'
-}
+  name: "contactMe",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

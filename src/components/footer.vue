@@ -1,19 +1,13 @@
 <template>
-  <div>
-    footer
-  </div>
+  <div>haiiii</div>
 </template>
 
 <script>
 export default {
-  name: 'bottomFooter'
-}
+  name: "bottomFooter",
+};
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" scoped></style>
 
-</style>
-
-<style scoped>
-
-</style>
+<style scoped></style>

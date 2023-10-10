@@ -4,38 +4,37 @@
     <navBar />
     <router-view></router-view>
     <bottomFooter />
+    <component
+      src="https://kit.fontawesome.com/56b651d75e.js"
+      :is="'script'"
+    ></component>
   </div>
 </template>
 
 <script>
-
-import navBar from './components/nav-bar.vue'
-import bottomFooter from './components/footer.vue'
+import navBar from "./components/nav-bar.vue";
+import bottomFooter from "./components/footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     navBar,
-    bottomFooter
-  }
-}
+    bottomFooter,
+  },
+};
 </script>
 
-<style> 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-*{
-  font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
-
-
 </style>
 
-<style lang="scss" >
-
-body{
+<style lang="scss">
+body {
   background-color: $background;
   color: $text;
-
 }
 </style>

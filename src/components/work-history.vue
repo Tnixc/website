@@ -30,22 +30,22 @@
 export default {
   name: "workHistory",
   mounted() {
-    const gridItems = document.querySelectorAll('.grid-item');
-    
+    const gridItems = document.querySelectorAll(".grid-item");
+
     gridItems.forEach((item) => {
       const random = Math.random();
-      
+
       if (random < 0.3) {
-        item.style.gridColumn = 'span 2';
-        item.style.gridRow = 'span 2';
+        item.style.gridColumn = "span 2";
+        item.style.gridRow = "span 2";
       } else if (random < 0.6) {
-        item.style.gridColumn = 'span 2';
+        item.style.gridColumn = "span 2";
       } else if (random < 0.9) {
-        item.style.gridRow = 'span 2';
+        item.style.gridRow = "span 2";
       }
     });
-},
-}
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -69,5 +69,4 @@ export default {
   background: $surface;
   padding: 20px;
 }
-
 </style>
