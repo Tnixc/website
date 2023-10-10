@@ -2,7 +2,6 @@
   <div class="navbar">
     <router-link to="/work" class="nav-link">Work</router-link>
     <router-link to="/about" class="nav-link">About Me</router-link>
-    <router-link to="/contact" class="nav-link">Contact</router-link>
   </div>
 </template>
 

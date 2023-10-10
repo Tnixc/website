@@ -5,8 +5,7 @@ import * as VueRouter from 'vue-router';
 const routes = [
   { path: '/', component: () => import('./components/about-me.vue') },
   { path: '/work', component: () => import('./components/work-history.vue') },
-  { path: '/about', component: () => import('./components/about-me.vue') },
-  { path: '/contact', component: () => import('./components/contact-me.vue') },
+  { path: '/about', component: () => import('./components/about-me.vue') }
 ];
 
 const router = VueRouter.createRouter({

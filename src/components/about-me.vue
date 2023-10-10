@@ -1,17 +1,21 @@
 <template>
-  <div>
-    <div id="cards">
+  <container>
+    <main>
+      <left>
+        <h1 class="title">Haii, I'm Tnixc <p>he/him</p></h1>
+        <h2>15 year old from Hong Kong, living in Canada</h2>
+        <h4>I do coding stuff sometimes. Also I like watching anime, reading books/webtoons, drawing, and playing video games</h4>
+      </left>
+      <h1 class="subtitle">Stuff I know:</h1>
+      <div id="cards">
       <div class="card">
         <div class="card-content">
-          <div class="card-image">
-            <i class="fa-solid fa-code-merge"></i>
-          </div>
           <div class="card-info-wrapper">
             <div class="card-info">
               <i class="fa-solid fa-code-merge"></i>
               <div class="card-info-title">
                 <h3>Git</h3>
-                <h4>Places to be apart. Wait, what?</h4>
+                <h4>and github too!</h4>
               </div>
             </div>
           </div>
@@ -19,15 +23,12 @@
       </div>
       <div class="card">
         <div class="card-content">
-          <div class="card-image">
-            <i class="fa-solid fa-unicorn"></i>
-          </div>
           <div class="card-info-wrapper">
             <div class="card-info">
-              <i class="fa-solid fa-unicorn"></i>
+              <i class="fa-brands fa-css3-alt"></i>
               <div class="card-info-title">
-                <h3>Unicorns</h3>
-                <h4>A single corn. Er, I mean horn.</h4>
+                <h3>CSS</h3>
+                <h4>This is not hell</h4>
               </div>
             </div>
           </div>
@@ -35,15 +36,12 @@
       </div>
       <div class="card">
         <div class="card-content">
-          <div class="card-image">
-            <i class="fa-solid fa-blender-phone"></i>
-          </div>
           <div class="card-info-wrapper">
             <div class="card-info">
-              <i class="fa-solid fa-blender-phone"></i>
+              <i class="fa-brands fa-html5"></i>
               <div class="card-info-title">
-                <h3>Blender Phones</h3>
-                <h4>These absolutely deserve to exist.</h4>
+                <h3>HTML</h3>
+                <h4>Vanilla</h4>
               </div>
             </div>
           </div>
@@ -51,15 +49,12 @@
       </div>
       <div class="card">
         <div class="card-content">
-          <div class="card-image">
-            <i class="fa-solid fa-person-to-portal"></i>
-          </div>
           <div class="card-info-wrapper">
             <div class="card-info">
-              <i class="fa-solid fa-person-to-portal"></i>
+              <i class="fa-brands fa-square-js"></i>
               <div class="card-info-title">
-                <h3>Adios</h3>
-                <h4>See you...</h4>
+                <h3>JavaScript</h3>
+                <h4>Not good at javascript at all</h4>
               </div>
             </div>
           </div>
@@ -67,15 +62,12 @@
       </div>
       <div class="card">
         <div class="card-content">
-          <div class="card-image">
-            <i class="fa-solid fa-person-from-portal"></i>
-          </div>
           <div class="card-info-wrapper">
             <div class="card-info">
-              <i class="fa-solid fa-person-from-portal"></i>
+              <i class="fa-brands fa-vuejs"></i>
               <div class="card-info-title">
-                <h3>I mean hello</h3>
-                <h4>...over here.</h4>
+                <h3>Vue</h3>
+                <h4>Used it for this website!</h4>
               </div>
             </div>
           </div>
@@ -83,22 +75,20 @@
       </div>
       <div class="card">
         <div class="card-content">
-          <div class="card-image">
-            <i class="fa-solid fa-otter"></i>
-          </div>
           <div class="card-info-wrapper">
             <div class="card-info">
-              <i class="fa-solid fa-otter"></i>
+              <i class="fa-brands fa-python"></i>
               <div class="card-info-title">
-                <h3>Otters</h3>
-                <h4>Look at me, imma cute lil fella.</h4>
+                <h3>Python</h3>
+                <h4>I think I actually know this</h4>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+    </main>
+  </container>
 </template>
 
 <script>
@@ -119,30 +109,54 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
 
-<style scoped>
-:root {
-  --bg-color: rgb(20, 20, 20);
-  --card-color: rgb(23, 23, 23);
-}
-
-body {
-  align-items: center;
-  background-color: var(--bg-color);
-  display: flex;
-  height: 100vh;
+container{
+  display: grid;
   justify-content: center;
-  margin: 0px;
-  overflow: hidden;
-  padding: 0px;
+}
+main{
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 960px;
+}
+left{
+  width: 100%;
+}
+left > h4{
+  opacity: 0.65;
+}
+.title{
+  font-family: "Space Grotesk", monospace;
+  font-weight: 700;
+  font-size: 300%;
+}
+p{
+  font-weight: 400;
+  font-size: 40%;
+  display: inline-block;
+  background: #282A34;
+  padding-inline: 5px;
+  border-radius: 5px;
+  backdrop-filter: blur(20px);
+  font-family: "Space Grotesk", monospace;
+
 }
 
+.subtitle{
+  font-family: "Space Grotesk", monospace;
+  font-weight: 700;
+  font-size: 200%;
+  width: 100%;
+}
 #cards {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  max-width: 916px;
+  justify-content: center;
   width: calc(100% - 20px);
 }
 
@@ -155,7 +169,7 @@ body {
   border-radius: 10px;
   cursor: pointer;
   display: flex;
-  height: 260px;
+  height: 100px;
   flex-direction: column;
   position: relative;
   width: 300px;
@@ -181,7 +195,7 @@ body {
 .card::before {
   background: radial-gradient(
     800px circle at var(--mouse-x) var(--mouse-y),
-    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0.1),
     transparent 40%
   );
   z-index: 3;
@@ -190,14 +204,15 @@ body {
 .card::after {
   background: radial-gradient(
     600px circle at var(--mouse-x) var(--mouse-y),
-    rgba(255, 255, 255, 0.4),
+    hsl(227, 41%, 49%, 0.4),
     transparent 40%
   );
   z-index: 1;
 }
 
 .card > .card-content {
-  background-color: var(--card-color);
+  background-color: #11111188;
+  opacity: 1;
   border-radius: inherit;
   display: flex;
   flex-direction: column;
@@ -215,27 +230,9 @@ h2,
 h3,
 h4,
 span {
-  color: rgb(240, 240, 240);
-  font-family: "Rubik", sans-serif;
+  color: $text;
   font-weight: 400;
   margin: 0px;
-}
-
-i {
-  color: rgb(240, 240, 240);
-}
-
-.card-image {
-  align-items: center;
-  display: flex;
-  height: 140px;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.card-image > i {
-  font-size: 6em;
-  opacity: 0.25;
 }
 
 .card-info-wrapper {
@@ -264,114 +261,25 @@ i {
 }
 
 .card-info-title > h4 {
-  color: rgba(255, 255, 255, 0.5);
+  color: $text;
+  opacity: 0.7;
   font-size: 0.85em;
   margin-top: 8px;
 }
 
 /* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
 
-@media (max-width: 1000px) {
-  body {
-    align-items: flex-start;
-    overflow: auto;
-  }
 
-  #cards {
-    max-width: 1000px;
-    padding: 10px 0px;
-  }
-
-  .card {
-    flex-shrink: 1;
-    width: calc(50% - 4px);
-  }
+@media (max-width: 100px) {
+  #cards{
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
-
-@media (max-width: 500px) {
-  .card {
-    height: 180px;
+  .card{
+    width: calc(100% - 4px);
   }
-
-  .card-image {
-    height: 80px;
-  }
-
-  .card-image > i {
-    font-size: 3em;
-  }
-
-  .card-info-wrapper {
-    padding: 0px 10px;
-  }
-
-  .card-info > i {
-    font-size: 0.8em;
-  }
-
-  .card-info-title > h3 {
-    font-size: 0.9em;
-  }
-
-  .card-info-title > h4 {
-    font-size: 0.8em;
-    margin-top: 4px;
-  }
-}
-
-@media (max-width: 320px) {
-  .card {
-    width: 100%;
-  }
-}
-
-/* -- ↓ ↓ ↓ YouTube link styles ↓ ↓ ↓ -- */
-
-#youtube-link {
-  bottom: 10px;
-}
-
-#youtube-link > i {
-  color: rgb(239, 83, 80);
-}
-
-#source-link {
-  bottom: 60px;
-}
-
-#source-link > i {
-  color: rgb(94, 106, 210);
-}
-
-.link {
-  align-items: center;
-  backdrop-filter: blur(3px);
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 6px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  display: inline-flex;
-  gap: 5px;
-  left: 10px;
-  padding: 10px 20px;
-  position: fixed;
-  text-decoration: none;
-  z-index: 100;
-}
-
-.link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.link > i,
-.link > span {
-  height: 20px;
-  line-height: 20px;
-}
-
-.link > span {
-  color: white;
 }
 </style>
+
+<style scoped></style>
