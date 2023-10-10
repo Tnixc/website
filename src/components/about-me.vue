@@ -2,11 +2,11 @@
   <container>
     <main>
       <left>
-        <h1 class="title">Haii, I'm Tnixc <p>he/him</p></h1>
+        <h1 class="title">Haiiii, I'm Tnixc <p>he/him</p></h1>
         <h2>15 year old from Hong Kong, living in Canada</h2>
-        <h4>I do coding stuff sometimes. Also I like watching anime, reading books/webtoons, drawing, and playing video games</h4>
+        <h4>I do coding stuff sometimes. Also I like watching anime, reading books/webtoons, drawing, and playing video games.</h4>
       </left>
-      <h1 class="subtitle">Stuff I know:</h1>
+      <h1 class="subtitle"> > Stuff I know:</h1>
       <div id="cards">
       <div class="card">
         <div class="card-content">
@@ -87,6 +87,7 @@
         </div>
       </div>
     </div>
+    <h1 class="subtitle contact">> Contact me</h1>
     </main>
   </container>
 </template>
@@ -128,6 +129,9 @@ left{
 }
 left > h4{
   opacity: 0.65;
+}
+.contact{
+  padding-top: 30px;
 }
 .title{
   font-family: "Space Grotesk", monospace;
