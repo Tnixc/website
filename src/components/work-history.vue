@@ -13,6 +13,10 @@
           <h2>dots <span>111 stars!</span></h2>
           <p><a href="https://github.com/Tnixc/dots">https://github.com/Tnixc/dots</a></p>
         </ul>
+        <ul>
+          <h2>This website</h2>
+          <p>Who doesn't love a bit of recursion? <a href="https://main--tnixc.netlify.app/">https://main--tnixc.netlify.app/</a></p>
+        </ul>
       </div>
     </div>
   </body>
