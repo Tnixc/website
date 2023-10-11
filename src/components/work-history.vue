@@ -15,7 +15,7 @@
         </ul>
         <ul>
           <h2>This website</h2>
-          <p>Who doesn't love a bit of recursion? <a href="https://main--tnixc.netlify.app/">https://main--tnixc.netlify.app/</a></p>
+          <p>Who doesn't love a bit of recursion? <a href="https://tnixc.space/">https://tnixc.space/</a></p>
         </ul>
       </div>
     </div>
@@ -119,7 +119,7 @@ html {
   width: 100%;
 }
 body{
-  height: 80vh;
+  height: 86vh;
   overflow: hidden;
 }
 
