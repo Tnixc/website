@@ -148,7 +148,7 @@
       <h1 class="subtitle contact">> Links/Contact</h1>
       <div class="left">
         <ol>
-          <li>
+          <li>  
             <i class="fa-brands fa-github"></i
             ><a href="https://github.com/Tnixc"
               >Tnixc<i class="fa-solid fa-up-right-from-square"></i
@@ -282,10 +282,10 @@ body {
 
   @for $i from 1 through $star-count {
     &:nth-child(#{$i}) {
-      --star-tail-length: #{random_range(500em, 750em) / 100};
-      --top-offset: #{random_range(0vh, 10000vh) / 100};
-      --fall-duration: #{random_range(6000, 12000s) / 1000};
-      --fall-delay: #{random_range(0, 10000s) / 1000};
+      --star-tail-length: #{calc(random_range(500em, 750em) / 100)};
+      --top-offset: #{calc(random_range(0vh, 10000vh) / 100)};
+      --fall-duration: #{calc(random_range(6000, 12000s) / 1000)};
+      --fall-delay: #{calc(random_range(0, 10000s) / 1000)};
     }
   }
 
@@ -361,6 +361,7 @@ body {
   width: 30px;
   display: inline-flex;
   justify-content: center;
+  color: $primary;
 }
 .left > ol > li > a {
   color: $primary;
@@ -381,6 +382,7 @@ body {
 }
 
 #main-container {
+  margin-top: 80px;
   display: grid;
   justify-content: center;
 }
@@ -445,6 +447,7 @@ p {
   flex-direction: column;
   position: relative;
   width: 300px;
+  cursor: default !important;
 }
 
 .card:hover::before {
@@ -460,7 +463,7 @@ p {
   opacity: 0;
   position: absolute;
   top: 0px;
-  transition: opacity 500ms;
+  transition: opacity 250ms;
   width: 100%;
 }
 
