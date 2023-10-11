@@ -32,7 +32,9 @@ export default {
 <style lang="scss" scoped>
 
 
-
+@media screen and (max-width: 500px){
+  p{ font-family: 90%;}
+}
 // n is number of stars required
 @function multiple-box-shadow ($n) {
   $value: '#{random(2000)}px #{random(2000)}px #FFF';
