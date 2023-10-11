@@ -10,7 +10,7 @@
           <p><a href="https://github.com/catppuccin">https://github.com/catppuccin</a></p>
         </ul>
         <ul>
-          <h2>dots <span>111 stars!</span></h2>
+          <h2>dots ~  <span>111 stars!</span></h2>
           <p><a href="https://github.com/Tnixc/dots">https://github.com/Tnixc/dots</a></p>
         </ul>
         <ul>
