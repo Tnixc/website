@@ -14,6 +14,9 @@ export default {
 /* Style for the navbar container */
 .navbar {
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
   justify-content: center;
   background-color: transparent; /* No background */
   padding: 20px; /* Increased padding */

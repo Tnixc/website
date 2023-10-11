@@ -25,10 +25,10 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Space mono", sans-serif;
 }
 </style>
 
