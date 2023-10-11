@@ -6,8 +6,8 @@
     <div id="main">
       <div id="container">
         <ul>
-          <h2><img class="icon" src="https://github.com/catppuccin/catppuccin/blob/main/assets/logos/exports/macchiato_squircle.png?raw=true">Maintainer at<a href="https://github.com/catppuccin/catppuccin">Catppuccin</a></h2>
-          <p>A very very cool color scheme</p>
+          <h2><img class="icon" src="https://github.com/catppuccin/catppuccin/blob/main/assets/logos/exports/macchiato_squircle.png?raw=true">Maintainer at catppuccin</h2>
+          <p><a href="https://github.com/catppuccin">https://github.com/catppuccin</a></p>
         </ul>
         <ul>
           <h2>dots <span>111 stars!</span></h2>
@@ -113,8 +113,8 @@ html {
   width: 100%;
 }
 body{
-  overflow: hidden;
   height: 80vh;
+  overflow: hidden;
 }
 
 #container{
@@ -151,4 +151,6 @@ span{
   padding-left: 1ch;
   color: rgb(248, 233, 182);
 }
+
+
 </style>
