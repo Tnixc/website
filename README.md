@@ -4,9 +4,9 @@
 
 I know how shit this code is.
 
-https://main--tnixc.netlify.app/
-# Links to stuff I stole:
+https://tnixc.space
 
+# Links to stuff I stole:
 - https://codepen.io/Hyperplexed/pen/MWQeYLW
 - https://codepen.io/alphardex/pen/RwrVoeL
 - https://codepen.io/sarazond/pen/LYGbwj
