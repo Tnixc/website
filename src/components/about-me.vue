@@ -261,7 +261,6 @@ body {
   --star-width: calc(var(--star-tail-length) / 6);
   --fall-duration: 9s;
   --tail-fade-duration: var(--fall-duration);
-
   position: absolute;
   top: var(--top-offset);
   left: 0;

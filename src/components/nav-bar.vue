@@ -15,10 +15,13 @@ export default {
 .navbar {
   display: flex;
   position: sticky;
-  top: 0;
+  top: 20px;
   z-index: 9999;
   justify-content: center;
-  background-color: transparent; /* No background */
+  background-color: $surface; /* No background */
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid $secondary;
   padding: 20px; /* Increased padding */
 }
 

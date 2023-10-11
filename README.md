@@ -1,24 +1,10 @@
-# vue-app
+# The website
 
-## Project setup
-```
-npm install
-```
+I know how shit this code is.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Links to stuff I stole:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- https://codepen.io/Hyperplexed/pen/MWQeYLW
+- https://codepen.io/alphardex/pen/RwrVoeL
+- https://codepen.io/sarazond/pen/LYGbwj
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

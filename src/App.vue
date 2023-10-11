@@ -36,5 +36,6 @@ export default {
 body {
   background-color: $background;
   color: $text;
+  padding-inline: 20px;
 }
 </style>
