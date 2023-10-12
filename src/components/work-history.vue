@@ -6,15 +6,15 @@
     <div id="main">
       <div id="container">
         <ul>
-          <h2><img class="icon" src="https://github.com/catppuccin/catppuccin/blob/main/assets/logos/exports/macchiato_squircle.png?raw=true">Maintainer at catppuccin</h2>
-          <p><a href="https://github.com/catppuccin">https://github.com/catppuccin</a></p>
+          <h2><img class="icon" src="https://github.com/catppuccin/catppuccin/blob/main/assets/logos/exports/macchiato_squircle.png?raw=true">Maintainer at catppuccin<div class="badges-container"><img class="badge" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></div></h2>
+          <p>A high-spirited pastel color scheme at ~<a href="https://github.com/catppuccin">https://github.com/catppuccin</a></p>
         </ul>
         <ul>
           <h2>dots ~  <span>111 stars!</span></h2>
           <p><a href="https://github.com/Tnixc/dots">https://github.com/Tnixc/dots</a></p>
         </ul>
         <ul>
-          <h2>This website</h2>
+          <h2>This website <div class="badges-container"><img class="badge" src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"><img class="badge" src="https://img.shields.io/badge/Vue%20js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt=""></div></h2>
           <p>Who doesn't love a bit of recursion? <a href="https://tnixc.space/">https://tnixc.space/</a></p>
         </ul>
       </div>
@@ -30,6 +30,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.badges-container{
+  display: inline-flex;
+  margin-right: 20px;
+  margin-left: auto;
+  gap: 5px;
+  background: $secondary;
+  border-radius: 13px;
+  padding: 5px;
+}
+
+.badge{
+  border-radius: 8px;
+}
+
 
 
 @media screen and (max-width: 500px){

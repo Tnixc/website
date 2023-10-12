@@ -274,6 +274,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   gap: 12px;
+  position: relative;
   z-index: 9;
 }
 #software-head{
@@ -295,10 +296,14 @@ body {
 #softwares > img:nth-child(7){
   padding: 3px;
 }
+#gmaes-head{
+  padding-top: 10px;
+}
 #games{
   display: flex;
   align-items: center;
   gap: 12px;
+  position: relative;
   flex-wrap: wrap;
   z-index: 9;
 }
