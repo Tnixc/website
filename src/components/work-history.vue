@@ -48,6 +48,32 @@ export default {
 
 @media screen and (max-width: 500px){
   p{ font-family: 90%;}
+  ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+  main,body{
+    padding-inline: 0;
+  }
+  h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  ul .icon{
+  padding: 0 !important;
+}
+  .badges-container{
+  display: inline-flex;
+  gap: 5px;
+  background: $secondary;
+  border-radius: 13px;
+  padding: 5px;
+  margin: 0;
+}
 }
 // n is number of stars required
 @function multiple-box-shadow ($n) {
@@ -62,11 +88,6 @@ $shadows-small: multiple-box-shadow(700);
 $shadows-medium: multiple-box-shadow(200);
 $shadows-big: multiple-box-shadow(100);
 
-html {
-  height: 100%;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-  overflow: hidden;
-}
 #stars {
   width: 1px;
   height: 1px;
@@ -77,7 +98,7 @@ html {
   &:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 100vh;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -94,7 +115,7 @@ html {
   &:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 100vh;
     width: 2px;
     height: 2px;
     background: transparent;
@@ -111,7 +132,7 @@ html {
   &:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 100vh;
     width: 3px;
     height: 3px;
     background: transparent;
@@ -124,17 +145,17 @@ html {
     transform: translateY(0px);
   }
   to {
-    transform: translateY(-2000px);
+    transform: translateY(-100vh);
   }
 };
 #main{
   display: flex;
   justify-content: center;
   width: 100%;
+  padding-inline: 10px;
 }
 body{
-  height: 86vh;
-  overflow: hidden;
+  height: 100vh;
 }
 
 #container{
