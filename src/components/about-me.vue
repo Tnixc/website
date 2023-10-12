@@ -63,6 +63,24 @@
           I do coding stuff sometimes. Also I like watching anime, reading
           books/webtoons, drawing, and playing video games.
         </h4>
+        <h2 id="software-head">> Software I use:</h2>
+        <div id="softwares">
+          <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="">
+          <img src="https://i.redd.it/ne6ukkej06t71.png" alt="">
+          <img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" alt="">
+          <img src="https://cdn.jim-nielsen.com/macos/512/affinity-photo-2-2023-02-14.png" alt="">
+          <img src="https://cdn.jim-nielsen.com/macos/512/affinity-designer-2-2023-02-14.png" alt="">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Procreate-icon.png" alt="">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9c/6d/31/9c6d310b-c0f0-3184-e53f-e09798bc47b4/AppIcon-0-0-1x_U007epad-0-0-0-0-0-0-85-220.png/512x512bb.jpg" alt="">
+        </div>
+        <h2 id="games-head">> Games I play:</h2>
+        <div id="games">
+          <img src="https://preview.redd.it/you-have-an-ugly-gray-creeper-instead-of-a-minecraft-icon-v0-y83ppc5i6r4b1.png?width=1024&format=png&auto=webp&s=12576cea991cd7c24bd277c1c43800e81ea0e73a" alt="">
+          <img src="https://docs.modrinth.com/img/logo.svg" alt="">
+          <img src="https://i.imgur.com/GgmnLVw.png" alt="">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cyberpunk_2077_logo.svg/2560px-Cyberpunk_2077_logo.svg.png" alt="">
+          <img src="https://b.thumbs.redditmedia.com/trqWzHVpzC1gYZzxdunc1IcPfGPjHF9it-JwXXKtaMo.png" alt="">
+      </div>
       </div>
       <h1 class="subtitle">> Stuff I know:</h1>
       <div id="cards">
@@ -139,6 +157,19 @@
                 <div class="card-info-title">
                   <h3>Python</h3>
                   <h4>I think I actually know this</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="card-info-wrapper">
+              <div class="card-info">
+                <i class="fa-brands fa-figma"></i>
+                <div class="card-info-title">
+                  <h3>Figma</h3>
+                  <h4>Good stuff</h4>
                 </div>
               </div>
             </div>
@@ -235,6 +266,42 @@ body {
   align-items: center;
   min-height: 100vh;
     overflow: hidden;
+}
+#softwares{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 9;
+}
+#software-head{
+  padding-top: 20px;
+}
+#softwares > img{
+  height: 36px;
+  border-radius: 8px;
+}
+#softwares > img:nth-child(1),#softwares > img:nth-child(2){
+  padding: 4px;
+  transform: translateY(2px);
+}
+
+#softwares > img:nth-child(3){
+  filter: invert(40%) sepia(79%) saturate(3883%) hue-rotate(179deg) brightness(125%) contrast(94%);
+  padding: 3px;
+}
+#softwares > img:nth-child(7){
+  padding: 3px;
+}
+#games{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 9;
+}
+
+#games > img{
+  height: 36px;
+  border-radius: 8px;
 }
 
 @function random_range($min, $max) {
