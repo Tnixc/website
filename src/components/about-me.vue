@@ -78,8 +78,10 @@
           <img src="https://preview.redd.it/you-have-an-ugly-gray-creeper-instead-of-a-minecraft-icon-v0-y83ppc5i6r4b1.png?width=1024&format=png&auto=webp&s=12576cea991cd7c24bd277c1c43800e81ea0e73a" alt="">
           <img src="https://docs.modrinth.com/img/logo.svg" alt="">
           <img src="https://i.imgur.com/GgmnLVw.png" alt="">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cyberpunk_2077_logo.svg/2560px-Cyberpunk_2077_logo.svg.png" alt="">
           <img src="https://b.thumbs.redditmedia.com/trqWzHVpzC1gYZzxdunc1IcPfGPjHF9it-JwXXKtaMo.png" alt="">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cyberpunk_2077_logo.svg/2560px-Cyberpunk_2077_logo.svg.png" alt="">
+          <img src="https://www.rpgfan.com/wp-content/uploads/2020/10/VA-11-HALL-A-Cyberpunk-Bartender-Action-Logo-001.jpg" alt="">
+          <img src="https://static.wikia.nocookie.net/segamusic/images/4/43/Project_SEKAI_COLORFUL_STAGE%21_feat._Hatsune_Miku_Logo.png" alt="">
       </div>
       </div>
       <h1 class="subtitle">> Stuff I know:</h1>
@@ -269,6 +271,7 @@ body {
 }
 #softwares{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 12px;
   z-index: 9;
@@ -296,6 +299,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex-wrap: wrap;
   z-index: 9;
 }
 
@@ -609,16 +613,6 @@ span {
 
 /* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
 
-@media (max-width: 100px) {
-  #cards {
-    flex-grow: 1;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  .card {
-    width: calc(100% - 4px);
-  }
-}
 </style>
 
 <style scoped></style>
