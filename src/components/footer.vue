@@ -43,6 +43,9 @@ i {
 main {
   margin-top: auto;
   margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 800px) {
