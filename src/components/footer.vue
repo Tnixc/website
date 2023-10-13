@@ -18,6 +18,7 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  z-index: 9999;
   max-width: $max-width;
 }
 
@@ -43,9 +44,11 @@ i {
 main {
   margin-top: auto;
   margin-bottom: 0;
+  position: static;
   width: 100%;
   display: flex;
   justify-content: center;
+  z-index: 9999;
 }
 
 @media screen and (max-width: 800px) {
