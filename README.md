@@ -1,6 +1,6 @@
 # The website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b21c59ec-69dd-41e2-a1c3-92d587033697/deploy-status)](https://app.netlify.com/sites/tnixc/deploys)
+Go to website v2 : https://github.com/Tnixc/website-v2
 
 I know how shit this code is.
 
