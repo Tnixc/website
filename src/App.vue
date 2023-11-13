@@ -26,7 +26,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
 * {
   font-family: "Space mono", sans-serif;
 }

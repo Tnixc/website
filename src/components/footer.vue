@@ -2,7 +2,9 @@
   <main>
     <div class="container">
       <a>Made with <i class="fa-brands fa-vuejs"></i>and &lt;3</a>
-      <a href="https://github.com/Tnixc/vue-app">Credits + Source on github<i class="fa-brands fa-github"></i></a>
+      <a href="https://github.com/Tnixc/vue-app"
+        >Credits + Source on github<i class="fa-brands fa-github"></i
+      ></a>
     </div>
   </main>
 </template>
@@ -31,7 +33,7 @@ a {
   transition: all 240ms;
 }
 
-div>a:nth-child(2):hover {
+div > a:nth-child(2):hover {
   background: $secondary;
 }
 
@@ -57,4 +59,3 @@ main {
   }
 }
 </style>
-
